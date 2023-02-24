@@ -87,9 +87,48 @@ top: 20%;
  }
 
  .whole_cnt{
-   padding-top: 5%;
+   padding-top: 10px;
      margin-left: 10%;
-    
+     /* background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );  */
+ }
+ .vedo_bk{
+  background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+  height: 700px;
+}
+
+ .btn2,.btn3{
+   margin-left: 5px;
+ }
+ .btn_cnt_atten{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
  }
 
+ @media (max-width:768px){
+    
+     .myapp{
+      display: flex;
+      border: 3px yellow solid;
+      width: 300px;
+      height: 250px;
+      background-color: rgba(14, 15, 16, 0.838);
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: space-between; */
+    }
+    .btn_cnt_atten{
+      display: flex;
+      padding-top: 3%;
+      justify-content: center;
+    }
+    .vedo{
+      width: 250px;
+      height: 250px;
+    }
+    .appcanvas{
+    width: 250px;
+    height: 200px;
+    }
+ }
  

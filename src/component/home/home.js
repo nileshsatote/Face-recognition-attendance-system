@@ -8,7 +8,8 @@ export default function Home() {
   return (
   <>
 
-  {/* <h1 className='heading'>Nilesh</h1> */}
+<div id='home_bk'>
+
     <div className='btn_cnt'>
   
     <div className='btn_div'>
@@ -26,6 +27,8 @@ export default function Home() {
     <div className='btn_div'>
     <Button variant="contained">Take Photos</Button>
     
+    </div>
+
     </div>
 
     </div>

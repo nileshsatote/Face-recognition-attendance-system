@@ -3,10 +3,10 @@ import './login.css'
 export const Login = () => {
   return (
     <>
-<body id='bdy1'>
 
-    <div >Login</div>
-</body>
+
+    <div id='bdy1' >Login</div>
+
     </>
   )
 }

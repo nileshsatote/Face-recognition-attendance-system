@@ -2,7 +2,7 @@ import React,{useRef,useEffect} from 'react'
 // import '../login/login.css'
 import '../data/video.css';
 import * as faceapi from 'face-api.js'
-// import Button from '@mui/material/Button';
+import Button from '@mui/material/Button';
 // import Webcam
 //  from 'react-webcam'
 export const Video = () => {
@@ -56,14 +56,18 @@ export const Video = () => {
 
     },1000)
   }
+
+   const videoStop=()=>{
+    //  videoRef.srcObject=stop();
+    window.alert('work')
+  }
+  
    return (
     <>
-
+<div className='vedo_bk'>
     <div className='whole_cnt'>
-
-   
    <div className='myapp'>
-
+          {/* <h1 className='nil'>nilesh</h1> */}
     <div className= 'appVide' >
       <video crossOrigin='anonymous'  
       className='vedo'
@@ -74,6 +78,23 @@ export const Video = () => {
    
    </div>
    </div>
+
+     <div className='btn_cnt_atten'>
+     <div className='btn1'>
+   <Button variant="contained" className='btn1'>Pause</Button> 
+     </div>
+     <div className='btn2'>
+      
+   <Button variant="contained" className='btn2' onClick={videoStop}>Stop</Button> 
+     </div>
+
+     <div className='btn3'>
+   <Button variant="contained" className='btn3'>Play</Button> 
+     </div>
+    
+ 
+     </div>
+     </div>
   </>
    )
 }
