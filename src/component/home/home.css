@@ -1,0 +1,35 @@
+.btn_cnt{
+    display: flex;
+    justify-content: center;
+  padding-top: 100px;
+}
+.heading{
+  color: aliceblue;
+
+}
+
+.btn_div{
+ 
+    margin-left: 10px;
+}
+
+@media (max-width:768px){
+  .btn_cnt{
+    display: block;
+   
+   
+
+  }
+  .btn_div{
+   margin-top: 5px;
+   display: flex;
+   justify-content: center;
+
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+  }
+  
+}
